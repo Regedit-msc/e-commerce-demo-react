@@ -2,36 +2,47 @@ body {
   background-color: #ffffff;
 }
 
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: -1; /* Stay on top */
-  top: 63px; /* Stay at the top */
-  left: 0;
-  background-color: #ffffff; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 70px;
+/* Flex class on homepage */
+.flex {
+  display: flex;
 }
 
-.sidenav-mobile {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 97%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 100; /* Stay on top */
-  top: 63px; /* Stay at the top */
-  left: 0%;
-  background-color: #ffffff; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 70px;
+/* All flex Children */
+.flex-child {
+  flex: 2;
 }
-/* The navigation menu links */
-/* Sidebar links */
-.sidenav a.active {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
+
+/* Force the sidebar to take up 1/3 of the space */
+.flex-child:first-child {
+  flex: 0.5 !important;
+  margin-right: 10px;
+} /* The navigation menu links */
+
+/* Styles for the sidenav */
+.sidenav {
+  background-color: white;
+  height: 1000px;
+  width: 50px;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+
+/* Sidenav on hover */
+.sidenav:hover {
+  background-color: #2d3e4e;
+}
+
+/* sidenav on mobile */
+.sidenav-mobile {
+  height: 100%;
+  width: 97%;
+  position: fixed;
+  z-index: 100;
+  top: 63px;
+  left: 0%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 70px;
 }
 
 /* Active/current link */
@@ -45,6 +56,12 @@ body {
   margin-right: 20px;
 }
 
+/* sidenav link hover */
+.sidenav a:hover {
+  color: #fc6240;
+}
+
+/* Sidenav mobile links */
 .sidenav-mobile a {
   display: block;
   text-decoration: none;
@@ -54,17 +71,8 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-/* Links on mouse-over */
-.sidenav a:hover {
-  background-color: #555;
-  color: white;
-}
 
-.main {
-  margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
+/* Set these propertiex for screens below 450px */
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -74,6 +82,7 @@ body {
   }
 }
 
+/* Set these properties for screens below 1092px */
 @media screen and (max-width: 1092px) {
   .main {
     margin-left: 0px;
