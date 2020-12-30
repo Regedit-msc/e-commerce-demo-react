@@ -46,7 +46,6 @@ const Navbar = ({ toggleCategory }) => {
       {/* Search Box */}
 
       <div className="header__search">
-        <Modal />
         <input
           type="text"
           className="header__searchInput"
