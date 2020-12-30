@@ -11,9 +11,10 @@ import {
   FaAlignRight,
   FaArrowRight,
   FaSearch,
+  FaUserAlt,
 } from "react-icons/fa";
 
-const Navbar = ({ toggleCategory }) => {
+const Navbar = ({ toggleCategory, isCategoryToggled }) => {
   const [isToggled, setisToggled] = useState(false);
 
   const toggleNavigation = () => {
@@ -30,9 +31,15 @@ const Navbar = ({ toggleCategory }) => {
     <nav className="header">
       {/*Logo on theh left -> Image  */}
       <button onClick={toggleCat} className="toggle__category">
-        <FaAlignRight
-          style={{ marginTop: "10px", color: "white", fontSize: "30px" }}
-        />
+        {isCategoryToggled === true ? (
+          <FaArrowRight
+            style={{ marginTop: "10px", color: "white", fontSize: "30px" }}
+          />
+        ) : (
+          <FaAlignRight
+            style={{ marginTop: "10px", color: "white", fontSize: "20px" }}
+          />
+        )}
       </button>
       <Link to="/">
         <img
@@ -60,8 +67,8 @@ const Navbar = ({ toggleCategory }) => {
               style={{ marginTop: "10px", color: "white", fontSize: "30px" }}
             />
           ) : (
-            <FaAlignRight
-              style={{ marginTop: "10px", color: "white", fontSize: "30px" }}
+            <FaUserAlt
+              style={{ marginTop: "10px", color: "white", fontSize: "20px" }}
             />
           )}
         </button>

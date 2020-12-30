@@ -20,7 +20,10 @@ function App() {
         <Switch>
           <Route path="/">
             {/*Bottom one is the default Route */}
-            <Navbar toggleCategory={toggleCategory} />
+            <Navbar
+              toggleCategory={toggleCategory}
+              isCategoryToggled={isCategoryToggled}
+            />
 
             <Home isCategoryToggled={isCategoryToggled} />
           </Route>
