@@ -13,6 +13,7 @@ import {
   FaSearch,
 } from "react-icons/fa";
 
+
 const Navbar = ({ toggleCategory }) => {
   const [isToggled, setisToggled] = useState(false);
 
@@ -45,6 +46,7 @@ const Navbar = ({ toggleCategory }) => {
       {/* Search Box */}
 
       <div className="header__search">
+        <Modal />
         <input
           type="text"
           className="header__searchInput"
