@@ -1,86 +1,150 @@
-body {
-  background-color: #ffffff;
+
+
+
+/* Flex class on homepage */
+.flex {
+  display: flex;
 }
 
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: -1; /* Stay on top */
-  top: 63px; /* Stay at the top */
-  left: 0;
-  background-color: #ffffff; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 70px;
+/* All flex Children */
+.flex-child {
+  flex: 2;
+  justify-content: center;
 }
 
-.sidenav-mobile {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 97%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 100; /* Stay on top */
-  top: 63px; /* Stay at the top */
-  left: 0%;
-  background-color: #ffffff; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 70px;
+/* Force the sidebar to take up 1/3 of the space */
+.flex-child:first-child {
+  flex: 0.4 !important;
+  /* padding-right: 0px; */
 }
+
 /* The navigation menu links */
-/* Sidebar links */
-.sidenav a.active {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
+
+/* Styles for the sidenav */
+.sidenav, .sidenav {
+  background-color: white;
+  height: 1000px;
+  /* overflow-x: hidden; */
+  width: auto;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+h6{
+  color:orange;
+  text-align: center;
+}
+
+.tooltipContainer,
+.extraClass {
+background-color:white !important;
+
+}
+
+#marblecutters{
+  margin-top: 17em;
+  margin-left: 6.5em;
+}
+
+#poweraccessories{
+  margin-top: 12em;
+ 
+}
+
+
+.tooltipInnerContainer li a{
+  margin-right:2em;
+  padding-bottom: 0.5em !important;
+}
+
+.sidenav a {
+  margin-left: 2.8em;
+  margin-top:1em;
+}
+.sidebar a:hover {
+background-color: #2d3e4e;
+color:white !important;
+}
+
+/* Sidenav on hover */
+.tooltipContainer ul li{
+  list-style-type:none;
+  margin-right:5em !important;
+}
+/* sidenav on mobile */
+.sidenav-mobile {
+  height: 100%;
+  width: 97%;
+  position: fixed;
+  z-index: 100;
+  top: 63px;
+  left: 0%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 70px;
 }
 
 /* Active/current link */
 .sidenav a {
   display: block;
+  /* width:10%; */
   text-decoration: none;
   padding: 15px;
-  background-color: #2d3e4e;
-  color: white;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* background-color: #2d3e4e; */
+  color: black;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
 }
 
+.main{
+  position: relative;
+}
+/* Sidenav mobile links */
 .sidenav-mobile a {
   display: block;
   text-decoration: none;
   padding: 15px 20px;
   background-color: #2d3e4e;
-  color: white;
+  color: black;
   margin-left: 20px;
   margin-right: 20px;
 }
-/* Links on mouse-over */
-.sidenav a:hover {
-  background-color: #555;
-  color: white;
+
+.Tooltip-text{
+  background-color: white !important;
+
+}
+.Tooltip-text ul{
+  background-color: white !important;
+
+}
+.Tooltip-text ul li {
+  list-style-type: none;
+  color:black;
 }
 
-.main {
-  margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
 
+/* Set these propertiex for screens below 450px */
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
   }
+
   .sidenav a {
     font-size: 18px;
   }
 }
 
+/* Set these properties for screens below 1092px */
 @media screen and (max-width: 1092px) {
   .main {
     margin-left: 0px;
   }
+
   .sidenav {
     display: none;
   }
+
   body {
     margin-left: auto;
     margin-right: auto;
