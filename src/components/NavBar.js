@@ -13,6 +13,7 @@ import {
   FaSearch,
 } from "react-icons/fa";
 
+
 const Navbar = ({ toggleCategory }) => {
   const [isToggled, setisToggled] = useState(false);
 
