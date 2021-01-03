@@ -1,0 +1,182 @@
+.first--page--mobile {
+    width: auto;
+    background: #3d4786;
+    overflow-x: hidden;
+}
+
+.login--header--mobile {
+    font-size: 25px;
+    color: white;
+    margin-left: 25%;   
+}
+
+li {
+    background: url(../../../assets/bg/tick-mark.png) #4153af 20px 14px no-repeat;
+    font-size: 15px;
+    height: 49px;
+    width: 75%;
+    border-radius: 50px;
+    list-style: none;
+    color: #fff;
+    text-align: left;
+}
+
+.signUp--rewards--mobile {
+    font-family: open Sans Bold;
+    font-size: 17px !important;
+    padding: 9px 0 13px 55px !important;
+}
+
+.signUp--rewards img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.mobile--list {
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 22px;
+    margin: 0 0 10px
+}
+
+.second--page--mobile {
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: #fff;
+}
+
+.second--page label {
+    display: inline-block;
+    font-size: 15px;
+    color: #737373;
+    margin: 0;
+    font-weight: normal;
+}
+
+.label--space {
+    padding-top: 20px;
+}
+
+.signin--button--mobile {
+    background: #fa832a;
+    border: 0;
+    outline: none;
+    color: #fff;
+    width: 70%;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.otp--button--mobile {
+    background: #fff;
+    color: #e96b21;
+    border: solid 1px #ed8b5a;
+    width: 70%;
+    height: 36px;
+    font-size: 14px;
+}
+
+.forgot--password--link {
+    padding-top: 7px;
+    font-size: 14px;
+    color: #5a83ff;
+    cursor: pointer;
+}
+
+.social--text {
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.not--registered--mobile {
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20%;
+    color: #555;
+    margin-top: 22px;
+}
+
+.banner--mobile {
+    background: #57aecc;
+    width: 70%;
+    height: 130px;
+    margin-top: 20px;
+    padding: 16px 14px 16px;
+    clear: both;
+    font-family: 'Open Sans Semibold';
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.banner--mobile .icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner--mobile .icon > img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.head--text {
+    color: #faec6f;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    display: block;
+}
+
+.sub--text {
+    display: block;
+    font-weight: 600;
+    font-family: Open Sans Bold;
+    font-size: 26px;
+    margin-top: -4px;
+}
+
+.signup--button--mobile {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    background: #e9611e;
+    border: 0;
+    padding: 7px 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 36px;
+}
+
+.center-text--signup--mobile{
+    display: block;
+    margin-left: 20%;
+}
+
+.signin--password--link {
+    margin-left: 10%;
+    color: blue;
+    cursor: pointer;
+}
+
+.mobile-center--icon {
+    margin-left: 30%;
+}
+
+.mobile--header--text {
+    margin-left: 0%;
+}

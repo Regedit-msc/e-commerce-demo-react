@@ -1,0 +1,30 @@
+.desktop--page {
+    display: none;
+}
+
+.mobile--page {
+    display: block;
+}
+
+.close {
+    padding-top: 14px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.close--mobile {
+    padding-top: 14px;
+    font-size: 14px;
+    padding-left: 20px;
+    background-color: #3d4786;
+}
+
+@media screen and (min-width: 600px) {
+    .desktop--page {
+        display: block;
+    }
+
+    .mobile--page {
+        display: none;
+    }
+}
