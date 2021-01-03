@@ -12,6 +12,7 @@ import {
   FaArrowRight,
   FaSearch,
 } from "react-icons/fa";
+import Modal from './modal/Modal';
 
 
 const Navbar = ({ toggleCategory }) => {
@@ -53,6 +54,7 @@ const Navbar = ({ toggleCategory }) => {
         />
         <button className="header__searchIcon">
           <FaSearch />
+          <Modal />
         </button>
 
         <button className="toggle__navigation" onClick={toggleNavigation}>

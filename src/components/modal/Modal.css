@@ -1,171 +1,30 @@
-.first--page {
-    width: 100%;
+.desktop--page {
+    display: none;
 }
 
-.login--header {
-    font-size: 38px;
-    color: #fff;
-    text-align: center;
-    background: none;
-    padding-left: 0;
-    text-shadow: 2px 2px #3d4786;
-    padding-bottom: 2px;
-    padding-top: 20px;
-}
-
-li {
-    background: url(../../assets/bg/tick-mark.png) #4153af 20px 14px no-repeat;
-    padding: 13px 0 13px 55px;
-    margin: 0 0 8px;
-    font-size: 15px;
-    height: 49px;
-    width: 100%;
-    border-radius: 50px;
-    list-style: none;
-    color: #fff;
-    text-align: left;
-}
-
-.signUp--rewards {
-    font-family: open Sans Bold;
-    font-size: 17px !important;
-    padding: 9px 0 13px 55px !important;
-}
-
-.signUp--rewards img {
-    width: 30px;
-    vertical-align: middle;
-}
-
-.title {
-    font-size: 22px;
-    margin: 0 0 10px
-}
-
-.second--page {
-    background-color: #fff;
-}
-
-.second--page label {
-    display: inline-block;
-    font-size: 15px;
-    color: #737373;
-    margin: 0;
-    font-weight: normal;
-}
-
-.label--space {
-    padding-top: 20px;
-}
-
-.signin--button {
-    background: #fa832a;
-    border: 0;
-    outline: none;
-    color: #fff;
-    width: 100%;
-    height: 36px;
-    font-size: 14px;
-}
-
-.otp--button {
-    background: #fff;
-    color: #e96b21;
-    border: solid 1px #ed8b5a;
-    width: 100%;
-    height: 36px;
-    font-size: 14px;
-}
-
-.forgot--password--link {
-    padding-top: 7px;
-    font-size: 14px;
-    color: #5a83ff;
-    cursor: pointer;
-}
-
-.social--text {
-    text-align: left;
-    font-size: 15px;
-    line-height: 30px;
-}
-
-.not--registered {
-    font-weight: 700;
-    text-align: center;
-    font-size: 13px;
-    color: #555;
-    margin-bottom: 0;
-    margin-top: 22px;
-}
-
-.banner {
-    background: #57aecc;
-    width: 100%;
-    height: 130px;
-    margin-top: 20px;
-    padding: 16px 14px 16px;
-    clear: both;
-    font-family: 'Open Sans Semibold';
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.banner .icon {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.banner .icon > img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 6px;
-    margin-right: 10px;
-}
-
-.body {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
-}
-
-.head--text {
-    color: #faec6f;
-    font-size: 15px;
-    font-weight: normal;
-    letter-spacing: 0.4px;
+.mobile--page {
     display: block;
 }
 
-.sub--text {
-    display: block;
-    font-weight: 600;
-    font-family: Open Sans Bold;
-    font-size: 26px;
-    margin-top: -4px;
+.close {
+    padding-top: 14px;
+    font-size: 14px;
+    padding-right: 10px;
 }
 
-.signup--button {
-    font-size: 15px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    background: #e9611e;
-    border: 0;
-    padding: 7px 10px;
-    margin-top: 10px;
-    width: 100%;
-    height: 36px;
+.close--mobile {
+    padding-top: 14px;
+    font-size: 14px;
+    padding-left: 20px;
+    background-color: #3d4786;
 }
 
-.center-text--signup {
-    display: block;
-    text-align: center;
-}
+@media screen and (min-width: 600px) {
+    .desktop--page {
+        display: block;
+    }
 
-.signin--password--link {
-    color: blue;
-    cursor: pointer;
+    .mobile--page {
+        display: none;
+    }
 }
