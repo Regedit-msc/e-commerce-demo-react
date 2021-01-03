@@ -1,6 +1,3 @@
-
-
-
 /* Flex class on homepage */
 .flex {
   display: flex;
@@ -21,7 +18,8 @@
 /* The navigation menu links */
 
 /* Styles for the sidenav */
-.sidenav, .sidenav {
+.sidenav,
+.sidenav {
   background-color: white;
   height: 1000px;
   /* overflow-x: hidden; */
@@ -30,46 +28,43 @@
   padding-top: 5px;
 }
 
-h6{
-  color:orange;
+h6 {
+  color: orange;
   text-align: center;
 }
 
 .tooltipContainer,
 .extraClass {
-background-color:white !important;
-
+  background-color: white !important;
 }
 
-#marblecutters{
+#marblecutters {
   margin-top: 17em;
   margin-left: 6.5em;
 }
 
-#poweraccessories{
+#poweraccessories {
   margin-top: 12em;
- 
 }
 
-
-.tooltipInnerContainer li a{
-  margin-right:2em;
+.tooltipInnerContainer li a {
+  margin-right: 2em;
   padding-bottom: 0.5em !important;
 }
 
 .sidenav a {
   margin-left: 2.8em;
-  margin-top:1em;
+  margin-top: 1em;
 }
 .sidebar a:hover {
-background-color: #2d3e4e;
-color:white !important;
+  background-color: #2d3e4e;
+  color: white !important;
 }
 
 /* Sidenav on hover */
-.tooltipContainer ul li{
-  list-style-type:none;
-  margin-right:5em !important;
+.tooltipContainer ul li {
+  list-style-type: none;
+  margin-right: 5em !important;
 }
 /* sidenav on mobile */
 .sidenav-mobile {
@@ -96,7 +91,7 @@ color:white !important;
   /* margin-right: 20px; */
 }
 
-.main{
+.main {
   position: relative;
 }
 /* Sidenav mobile links */
@@ -110,19 +105,16 @@ color:white !important;
   margin-right: 20px;
 }
 
-.Tooltip-text{
+.Tooltip-text {
   background-color: white !important;
-
 }
-.Tooltip-text ul{
+.Tooltip-text ul {
   background-color: white !important;
-
 }
 .Tooltip-text ul li {
   list-style-type: none;
-  color:black;
+  color: black;
 }
-
 
 /* Set these propertiex for screens below 450px */
 @media screen and (max-height: 450px) {
