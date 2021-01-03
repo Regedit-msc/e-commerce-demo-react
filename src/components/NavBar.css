@@ -375,6 +375,60 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .header__searchInput {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+    margin-right: 0;
+  }
+  .header__logo {
+    width: 50px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .header__searchIcon {
+    background: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 60%;
+    margin-right: 10px;
+    outline: none;
+  }
+  .toggle__navigation {
+    display: flex;
+    width: 50px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  .header__option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .header__optionLine1 {
+    display: none;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+  .toggle__category {
+    display: inline;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .header__searchInput {
     display: none;
@@ -396,6 +450,60 @@
     font-size: 18px;
     margin-top: 5px;
     margin-left: 59%;
+    margin-right: 10px;
+    outline: none;
+  }
+  .toggle__navigation {
+    display: flex;
+    width: 50px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  .header__option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .header__optionLine1 {
+    display: none;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+  .toggle__category {
+    display: inline;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__searchInput {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+    margin-right: 0;
+  }
+  .header__logo {
+    width: 50px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .header__searchIcon {
+    background: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 47%;
     margin-right: 10px;
     outline: none;
   }

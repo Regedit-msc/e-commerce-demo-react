@@ -14,7 +14,7 @@
 }
 
 li {
-  background: url(../../assets/bg/tick-mark.png) #4153af 20px 14px no-repeat;
+  background: url(../../../assets/bg/tick-mark.png) #4153af 20px 14px no-repeat;
   padding: 13px 0 13px 55px;
   margin: 0 0 8px;
   font-size: 15px;
@@ -44,6 +44,8 @@ li {
 
 .second--page {
   background-color: #fff;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 .second--page label {
@@ -168,4 +170,8 @@ li {
 .signin--password--link {
   color: blue;
   cursor: pointer;
+}
+
+.forgot--page {
+  height: 40%;
 }
