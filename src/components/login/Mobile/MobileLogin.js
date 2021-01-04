@@ -4,7 +4,6 @@ import TextField from '@material-ui/core/TextField';
 import Icon from '../../../assets/bg/q-mark-forgotpass.png';
 import { FaFacebook, FaGoogle } from 'react-icons/fa';
 import Logo from '../../../assets/bg/ibreward-icon-common.png';
-import bg from '../../../assets/bg/Login-enterprise-bg.jpg';
 import firebase from '../../../utils/firebase';
 
 const MobileDesktop = () => {
@@ -49,23 +48,23 @@ const MobileDesktop = () => {
                 <p className="title--mobile">Sign In</p>
                 <label>Email or Phone</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="Enter email or phone" onChange={(e) => email = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="Enter email or phone" onChange={(e) => email = e.target.value} />
 
-                <p style={{ paddingTop: '10px', paddingBottom: '20px', paddingTop: '30px' }}></p>
+                <p style={{ paddingBottom: '20px', paddingTop: '30px' }}></p>
                 <label>Your Password</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} type="password" placeholder="**********" onChange={(e) => password = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} type="password" placeholder="**********" onChange={(e) => password = e.target.value} />
 
                 <p style={{ paddingBottom: '20px', paddingTop: '30px' }}></p>
 
                 <button className="signin--button--mobile" onClick={login}>SIGN IN</button>
-                <p style={{ paddingTop: '10px', paddingBottom: '6px', fontSize: '13', marginLeft: '35%' }}>OR</p>
+                <p style={{ paddingTop: '10px', paddingBottom: '1px', fontSize: '13', marginLeft: '40%' }}>OR</p>
                 <button className="otp--button--mobile">Request OTP</button>
                 <div className="forgot--password--link" onClick={() => setCurrIndex(2)}>Forgot Password?</div>
                 <p></p>
                 <div className="social--text">Sign In with your social account!
                 <FaFacebook
-                        style={{ marginLeft: '15px', color: "blue", fontSize: "25px" }}
+                        style={{ marginLeft: '10px', color: "blue", fontSize: "25px" }}
                         onClick={facebookAuth}
                     />
                     <FaGoogle
@@ -118,7 +117,7 @@ const MobileDesktop = () => {
                 <p className="title">Forgot Password</p>
                 <label>Email Your Email</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="Enter your email" onChange={(e) => email = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="Enter your email" onChange={(e) => email = e.target.value} />
                 <p style={{ paddingTop: '30px', paddingBottom: '20px' }}></p>
                 <button className="signin--button--mobile" onClick={forgot}>SUBMIT</button>
             </div>
@@ -161,37 +160,37 @@ const MobileDesktop = () => {
                 <p className="title">Sign Up</p>
                 <label>First Name</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="First Name" onChange={(e) => firstname = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="First Name" onChange={(e) => firstname = e.target.value} />
 
                 <p style={{ paddingTop: '30px', paddingBottom: '20px' }}></p>
 
                 <label>Last Name</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="Last Name" onChange={(e) => lastname = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="Last Name" onChange={(e) => lastname = e.target.value} />
 
                 <p style={{ paddingTop: '30px', paddingBottom: '20px' }}></p>
 
                 <label>Email or Username</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="Email or Username" onChange={(e) => email = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="Email or Username" onChange={(e) => email = e.target.value} />
 
                 <p style={{ paddingTop: '30px', paddingBottom: '20px' }}></p>
 
                 <label>Your Password</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} type="password" placeholder="**********" onChange={(e) => password = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} type="password" placeholder="**********" onChange={(e) => password = e.target.value} />
 
                 <p style={{ paddingBottom: '20px', paddingTop: '30px' }}></p>
 
                 <label>Phone number</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="Phone number" type="number" onChange={(e) => phone = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="Phone number" type="number" onChange={(e) => phone = e.target.value} />
 
                 <p style={{ paddingTop: '10px', paddingBottom: '20px' }}></p>
 
                 <label>GSTN number</label>
                 <p></p>
-                <TextField style={{ float: 'left', paddingLeft: '1px', width: '70%' }} placeholder="GSTN number" type="number" onChange={(e) => gstn = e.target.value} />
+                <TextField style={{ float: 'left', paddingLeft: '1px', width: '90%' }} placeholder="GSTN number" type="number" onChange={(e) => gstn = e.target.value} />
 
                 <p style={{ paddingTop: '20px', paddingBottom: '30px' }}></p>
 

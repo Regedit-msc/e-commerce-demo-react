@@ -3,7 +3,6 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
-import bg from '../../assets/bg/Login-enterprise-bg.jpg';
 import './Login.css';
 import LoginDesktop from './Desktop/LoginDesktop';
 import MobileLogin from './Mobile/MobileLogin';
@@ -23,7 +22,8 @@ const Login = ({ history }) => {
         style: {
             minWidth: "63vw",
             overflow: 'hidden',
-            background: `#fff url(${bg}) 0 100% no-repeat`,
+            // background: `#fff url(${bg}) 0 100% no-repeat`,
+            background: `#fff 0 100% no-repeat`,
             display: 'flex',
             position: 'fixed',
             width: '100%',

@@ -14,7 +14,7 @@ li {
     background: url(../../../assets/bg/tick-mark.png) #4153af 20px 14px no-repeat;
     font-size: 15px;
     height: 49px;
-    width: 75%;
+    width: 95%;
     border-radius: 50px;
     list-style: none;
     color: #fff;
@@ -64,7 +64,7 @@ li {
     border: 0;
     outline: none;
     color: #fff;
-    width: 70%;
+    width: 90%;
     height: 36px;
     font-size: 14px;
     padding-left: 15px;
@@ -75,7 +75,7 @@ li {
     background: #fff;
     color: #e96b21;
     border: solid 1px #ed8b5a;
-    width: 70%;
+    width: 90%;
     height: 36px;
     font-size: 14px;
 }
@@ -96,14 +96,14 @@ li {
 .not--registered--mobile {
     font-weight: 700;
     font-size: 13px;
-    margin-left: 20%;
+    margin-left: 30%;
     color: #555;
     margin-top: 22px;
 }
 
 .banner--mobile {
     background: #57aecc;
-    width: 70%;
+    width: 90%;
     height: 130px;
     margin-top: 20px;
     padding: 16px 14px 16px;
@@ -164,7 +164,7 @@ li {
 
 .center-text--signup--mobile{
     display: block;
-    margin-left: 20%;
+    margin-left: 26%;
 }
 
 .signin--password--link {
